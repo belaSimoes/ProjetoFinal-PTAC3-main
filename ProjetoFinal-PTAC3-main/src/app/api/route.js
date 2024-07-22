@@ -1,22 +1,57 @@
 import { NextResponse } from "next/server";
 
-export const listaDeLivros = [
+export const listaDeSeries = [
     {
         id: 1,
-        titulo: "O Senhor dos Anéis",
-        autor: "J.R.R. Tolkien",
-        anoPublicacao: 1954,
-        genero: "Fantasia"
+        imagem: "https://i.pinimg.com/736x/05/76/5e/05765e37ba61e2112545175bf7a10a20.jpg",
+        nome: "Succession",
+        criador: "Jesse Armstrong",
+        anoLancamento: 2018,
+        genero: "comédia dramática"
     },
     {
         id: 2,
-        titulo: "1984",
-        autor: "George Orwell",
-        anoPublicacao: 1949,
-        genero: "Distopia"
-    }
+        imagem: "https://i.pinimg.com/736x/11/54/ec/1154ecda7cf2fe930fe97df022c97361.jpg",
+        nome: "The Bear",
+        criador: "Christopher Storer",
+        anoLancamento: 2022,
+        genero: "comédia dramática"
+    },
+    {
+        id: 3,
+        imagem: "https://i.pinimg.com/564x/f5/90/6a/f5906ad7c5a010f8b1adc0292f940e3e.jpg",
+        nome: "The Office",
+        criador: "Greg Daniels, Ricky Gervais e Stephen Merchant",
+        anoLancamento: 2005,
+        genero: "comédia"
+    },
+    {
+        id: 4,
+        imagem: "https://i.pinimg.com/736x/e1/68/9d/e1689dde64ed2180d8b918b1b42eb384.jpg",
+        nome: "Sex And The City",
+        criador: "Darren Star",
+        anoLancamento: 1998,
+        genero: "comédia"
+    },
+    {
+        id: 5,
+        imagem: "https://i.pinimg.com/736x/2b/9e/44/2b9e445feeb333390f952c4c6bd68f88.jpg",
+        nome: "Gilmore Girls",
+        criador: "Amy Sherman-Palladino",
+        anoLancamento: 2000,
+        genero: "comédia"
+    },
+    {
+        id: 6,
+        imagem: "https://i.pinimg.com/564x/c7/b9/80/c7b980732c150bec1ae477b742a58fd8.jpg",
+        nome: "Gossip Girl",
+        criador: "Josh Schwartz e Stephanie Savage",
+        anoLancamento: 2007,
+        genero: "comédia"
+    },
+    
 ];
 
 export async function GET(){
-    return NextResponse.json(listaDeLivros)
+    return NextResponse.json(listaDeSeries)
 }
