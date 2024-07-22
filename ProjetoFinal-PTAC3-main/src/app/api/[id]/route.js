@@ -1,22 +1,14 @@
+
 import { NextResponse } from "next/server";
+import { listaDeLivros } from "../route";
 
-export const listaDeLivros = [
-    {
-        id: 1,
-        titulo: "O Senhor dos Anéis",
-        autor: "J.R.R. Tolkien",
-        anoPublicacao: 1954,
-        genero: "Fantasia"
-    },
-    {
-        id: 2,
-        titulo: "1984",
-        autor: "George Orwell",
-        anoPublicacao: 1949,
-        genero: "Distopia"
-    }
-];
-
-export async function GET(){
-    return NextResponse.json(listaDeLivros)
+export async function GET(req){
+    const id = parseInt(req.url.split('/api/')[1]);
+    let objeto = null;
+    listaDeLivros.forEach((obj)=> {
+        if(obj.id == id){
+           objeto = obj
+        }
+    });
+    return NextResponse.json(objeto);
 }
