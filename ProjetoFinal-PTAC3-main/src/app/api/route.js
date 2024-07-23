@@ -7,7 +7,8 @@ export const listaDeSeries = [
         nome: "Succession",
         criador: "Jesse Armstrong",
         anoLancamento: 2018,
-        genero: "comédia dramática"
+        genero: "comédia dramática",
+        descricao:"Acompanhe a história da família Roy, composta por Logan e seus quatro filhos, que controla um dos maiores conglomerados de meios de comunicação e entretenimento do mundo."
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ export const listaDeSeries = [
         nome: "The Bear",
         criador: "Christopher Storer",
         anoLancamento: 2022,
-        genero: "comédia dramática"
+        genero: "comédia dramática",
+        descricao: "Carmy luta para transformar a lanchonete da família e a si mesmo enquanto trabalha ao lado de uma equipe rude e difícil que acaba se revelando como sua família escolhida."
     },
     {
         id: 3,
@@ -23,7 +25,8 @@ export const listaDeSeries = [
         nome: "The Office",
         criador: "Greg Daniels, Ricky Gervais e Stephen Merchant",
         anoLancamento: 2005,
-        genero: "comédia"
+        genero: "comédia",
+        descricao:"The Office foi criada com o objetivo de retratar a vida cotidiana dos funcionários de uma empresa americana de papelaria, através de uma mistura de comédia e drama. "
     },
     {
         id: 4,
@@ -31,7 +34,8 @@ export const listaDeSeries = [
         nome: "Sex And The City",
         criador: "Darren Star",
         anoLancamento: 1998,
-        genero: "comédia"
+        genero: "comédia",
+        descricao:"The Office foi criada com o objetivo de retratar a vida cotidiana dos funcionários de uma empresa americana de papelaria, através de uma mistura de comédia e drama. "
     },
     {
         id: 5,
@@ -39,7 +43,8 @@ export const listaDeSeries = [
         nome: "Gilmore Girls",
         criador: "Amy Sherman-Palladino",
         anoLancamento: 2000,
-        genero: "comédia"
+        genero: "comédia",
+        descricao: "Em uma pequena cidade que mistura sonhadores, artistas e pessoas comuns, este drama multigeracional sobre família e amizade gira em torno da relação de Lorelai Gilmore e sua filha, Rory."
     },
     {
         id: 6,
@@ -47,8 +52,9 @@ export const listaDeSeries = [
         nome: "Gossip Girl",
         criador: "Josh Schwartz e Stephanie Savage",
         anoLancamento: 2007,
-        genero: "comédia"
-    },
+        genero: "comédia",
+        descricao: "O colegial acabou para os privilegiados ex-estudantes de uma escola preparatória exclusiva do Upper East Side de Manhattan, mas a Gossip Girl ainda compartilha mensagens de texto sobre escândalos e corações partidos."
+    }
     
 ];
 
