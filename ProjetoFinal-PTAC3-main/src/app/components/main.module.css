@@ -1,0 +1,40 @@
+/* main.module.css */
+
+.listaProdutos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .cartaoProduto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imagemContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .imagemProduto {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .detalhesProduto {
+    text-align: center;
+  }
+  
+  .nomeProduto, .serieProduto, .precoProduto {
+    margin: 5px 0;
+  }
+  

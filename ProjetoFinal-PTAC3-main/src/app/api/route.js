@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 export const listaDeSeries = [
     {
         id: 1,
-        imagem: "https://i.pinimg.com/736x/05/76/5e/05765e37ba61e2112545175bf7a10a20.jpg",
+        imagem: "https://i.pinimg.com/564x/0b/d5/a1/0bd5a15ff6344eb982d06b9383adee55.jpg",
         nome: "Succession",
         criador: "Jesse Armstrong",
         anoLancamento: 2018,

@@ -1,9 +1,11 @@
+// next.config.mjs
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-
-    images:{
-        domains:["m.media-amazon.com"]
-    }
+    images: {
+        domains: ["i.pinimg.com"],
+    },
 };
 
 export default nextConfig;
+
