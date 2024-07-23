@@ -38,3 +38,22 @@
     margin: 5px 0;
   }
   
+  /* Adicione essas classes no seu arquivo CSS */
+
+.link {
+  text-decoration: none; /* Remove underline */
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px; /* Bordas arredondadas */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+.button:hover {
+  background-color: grey; /* Cor muda ao passar o mouse */
+}

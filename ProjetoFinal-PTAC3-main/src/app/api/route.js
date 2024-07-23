@@ -35,7 +35,7 @@ export const listaDeSeries = [
         criador: "Darren Star",
         anoLancamento: 1998,
         genero: "comédia",
-        descricao:"The Office foi criada com o objetivo de retratar a vida cotidiana dos funcionários de uma empresa americana de papelaria, através de uma mistura de comédia e drama. "
+        descricao:"A colunista Carrie Bradshaw e as amigas Samantha, Charlotte e Miranda exploram os altos e baixos do mundo dos solteiros em Nova York. Aos trinta e poucos anos de idade, elas são bonitas, bem-sucedidas e, principalmente, unidas por uma grande amizade."
     },
     {
         id: 5,

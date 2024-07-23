@@ -11,7 +11,7 @@ export default async function Produtos({ params }) {
         <main className={styles.listaProdutos}>
             <div className={styles.cartaoProduto}>
                 <div className={styles.imagemContainer}>
-                    <Image className={styles.imagemProduto} width={300} height={300} src={data.imagem} />
+                    <Image className={styles.imagemProduto} width={200} height={300} src={data.imagem} />
                 </div>
                 <div className={styles.detalhesProduto}>
                     <p className={styles.nomeProduto}>{data.nome}</p>
