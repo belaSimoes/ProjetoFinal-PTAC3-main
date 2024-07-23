@@ -1,0 +1,52 @@
+/* podutosolo.module.css */
+
+.listaProdutos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Fundo cinza claro */
+  }
+  
+  .cartaoProduto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: white; /* Fundo branco para o cartão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 800px; /* Largura máxima do cartão */
+  }
+  
+  .imagemContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagemProduto {
+    border-radius: 10px; /* Bordas arredondadas para a imagem */
+  }
+  
+  .detalhesProduto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .detalhesProduto p {
+    margin: 5px 0;
+  }
+  
+  .nomeProduto {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .serieProduto,
+  .tipoProduto,
+  .precoProduto {
+    font-size: 1.2em;
+  }
+  

@@ -42,7 +42,7 @@ const Main = () => {
           {listComplete.map((produtos) => (
     
             <div className={styles.cartaoProduto}>
-    
+            <Link href={"/produtos/" + produtos.id} key={produtos.id} className={styles.a}>
                 <div className={styles.imagemContainer}>
                   <Image className={styles.imagemProduto} width={150} height={150} src={produtos.imagem} alt={produtos.produtos} />
                 </div>
@@ -54,7 +54,7 @@ const Main = () => {
                   <p className={styles.precoProduto}>Gênero: {produtos.genero}</p>
                 </div>
     
-             
+                </Link>
             </div>
           ))}
         </main>
