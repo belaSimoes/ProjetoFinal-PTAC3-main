@@ -13,7 +13,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px;
-    background-color: white; /* Fundo branco para o cartão */
+    background-color: #babbff; /* Fundo branco para o cartão */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     border-radius: 10px; /* Bordas arredondadas */
     max-width: 800px; /* Largura máxima do cartão */

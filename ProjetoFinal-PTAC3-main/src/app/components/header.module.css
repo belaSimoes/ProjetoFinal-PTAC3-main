@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center; /* Centraliza o título horizontalmente */
+    align-items: center; /* Centraliza o título verticalmente */
+    height: 80px; /* Altura do navbar */
+    background-color: #babbff; /* Cor de fundo do navbar */
+    color: rgb(0, 8, 85); /* Cor do texto */
+    width: 100%; /* Largura completa da tela */
+    position: relative; /* Não fixo, para que não sobreponha outros conteúdos */
+    margin-top: -10px; /* Ajusta a posição vertical do navbar */
+  }
+  
+  .mubi {
+    font-size: 30px; /* Tamanho da fonte do título */
+    font-family: 'Arial', sans-serif; /* Muda a fonte do título */
+  }
+  

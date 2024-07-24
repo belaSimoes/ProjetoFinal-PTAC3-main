@@ -1,0 +1,11 @@
+.rodape {
+    background-color: #babbff;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: auto; /* Este é o segredo para empurrar o rodapé para o final */
+}
